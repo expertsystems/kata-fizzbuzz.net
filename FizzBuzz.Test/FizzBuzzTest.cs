@@ -7,20 +7,16 @@ namespace FizzBuzz
     [TestFixture]
     public class FizzBuzzTest
     {
-        private static ILog LOG;
-
-        [SetUp]
-        public static void ConfigureLogging() 
-        {
-            Common.Logging.LogManager.Adapter = new Common.Logging.Simple.ConsoleOutLoggerFactoryAdapter();
-            LOG = LogManager.GetLogger(typeof(FizzBuzzTest));
-        }
-
+        private static ILog LOG = LogManager.GetLogger(typeof(FizzBuzzTest));
 
         [Test]
-        public void LogTest()
+        public void FirstTest()
         {
-            LOG.Info("Test!");
+            LOG.Info("Arrange");
+
+            LOG.Info("Act");
+
+            LOG.Info("Assert");
         }
     }
 }
