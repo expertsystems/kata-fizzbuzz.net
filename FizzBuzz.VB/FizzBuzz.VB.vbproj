@@ -8,7 +8,8 @@
     <OutputType>Library</OutputType>
     <StartupObject>
     </StartupObject>
-    <RootNamespace>FizzBuzz.VB</RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <AssemblyName>FizzBuzz.VB</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Windows</MyType>
